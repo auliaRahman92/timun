@@ -159,12 +159,12 @@ select:focus {
 #mobile-controls {
   display: none;
   position: fixed;
-  bottom: 40px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 12px 15px;
+  padding: 15px 20px;
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   z-index: 1000;
@@ -176,10 +176,10 @@ select:focus {
 }
 
 #mobile-controls button {
-  width: 60px;
-  height: 60px;
-  margin: 8px;
-  font-size: 28px;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  font-size: 36px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   border: none;
@@ -189,7 +189,7 @@ select:focus {
   transition: transform 0.2s, background-color 0.2s, box-shadow 0.2s;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #mobile-controls button:hover {
@@ -236,13 +236,13 @@ select:focus {
 
 @media only screen and (max-width: 600px) {
   #mobile-controls button {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
-    margin: 6px;
+    width: 65px;
+    height: 65px;
+    font-size: 32px;
+    margin: 8px;
   }
   .controls-row {
-    gap: 10px;
+    gap: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
